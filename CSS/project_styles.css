@@ -1,0 +1,36 @@
+.container{
+    border: 1px inset black;
+    margin: 1rem;
+}
+
+.project{
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem 1rem;
+    margin: 0.5rem 1rem;
+    border-bottom: 1px inset black;
+}
+
+img{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    width: 50;
+}
+
+article{
+    border: 1px inset black;
+    text-align: center;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    font-size: 15px;
+}
+
+section{
+    padding: auto;
+}
+
+h3{
+    font-size: 26px;
+    font-weight: bold;
+    text-align: left;
+}

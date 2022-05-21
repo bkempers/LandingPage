@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang=""en>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <title>Ben Kempers Projects Page</title>
+    <link rel="stylesheet" href="../CSS/project_styles.css">
 </head>
 <body>
 <header>
@@ -14,40 +15,40 @@
     <a href="contact.html">Contact</a>
 </nav>
 <main>
-    <article>
-        <section>
-            <h3>
-                <a href="https://github.com/bkempers/Morse-Code-Teacher" target="_blank">Morse Code Teacher Github</a>
-            </h3>
-            <p>
-                <img src="Pictures/morsecode_home_screen.png" alt="Main Screen">
-                This specific project me and a patner worked to develop a server-client 2-D game where you would play
-                as a tank, navigating around a set map with barriers, powerups, and the ability for other players & AI tanks
-                to fight against. 
-            </p>
-            <p>
-                <img src="Pictures/morsecode_gif.gif" alt="MorseCodeTeacher Gif">
-                Morse code gif
-            </p>
-        </section>
-
-        <section>
-            <h3>
-                <a href="https://github.com/bkempers/TankWars" target="_blank">TankWars Github</a>
-            </h3>
-            <p>
-                <img src="Pictures/tankwars_home.jpg" alt="Main Screen">
-                What it looks like when you first login to the TankWars game.
-            </p>
-            <p>
-                <img src="Pictures/tankwars_gif.gif" alt="TankWars Gif">
+    <div class="container">
+        <h3>
+            <a href="https://github.com/bkempers/Morse-Code-Teacher" target="_blank">Morse Code Teacher Github</a>
+        </h3>
+        <div class="project">
+            <img src="../Pictures/morsecode_gif.gif" alt="MorseCodeTeacher Gif">
+            <article>
+                Program that I developed
+            </article>
+        </div>
+    
+        <h3>
+            <a href="https://github.com/bkempers/TankWars" target="_blank">TankWars Github</a>
+        </h3>
+        <div class="project">
+            <img src="../Pictures/tankwars_gif.gif" alt="TankWars Gif">
+            <article>
                 TankWars Gif
-            </p>
-        </section>
-    </article>
+            </article>
+        </div>
+
+        <h3>
+            <a href="https://github.com/bkempers/RSA_Encryption" target="_blank">RSA Encryption Github</a>
+        </h3>
+        <div class="project">
+            <article>
+                RSA encryption  -> interactive trial that allows you input message, get keys, sends back encoded message, then you can
+                manually decode the message to get back the  original message.
+            </article>
+        </div>
+    </div>
 </main>
 <footer>
-    Foot
+    
 </footer>
 </body>
 </html>
