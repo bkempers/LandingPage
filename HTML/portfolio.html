@@ -1,76 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <title>Ben Kempers Projects Page</title>
     <link rel="stylesheet" href="../CSS/project_styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap" rel="stylesheet">
 </head>
+
 <body>
-<section id="home">
-<header>
-    <h1>Ben Kempers Projects Page</h1>
-    <h3>Public portfolio to display various projects, programming skills, and other information.</h2>
-</header>
-<nav>
-    <a href="#home">Home</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-</nav>
-<main>
-    <div class="container">
-        <section id="projects">
-        <h3>
-            <a href="https://github.com/bkempers/Morse-Code-Teacher" target="_blank">Morse Code Teacher Github</a>
-        </h3>
-        <div class="project">
-            <img src="../Pictures/morsecode_gif.gif" alt="MorseCodeTeacher Gif">
-            <div class="project_info">
-                Program that I developed
+    <section id="home">
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="main_page">
+
+            <div class="navigation"></div>
+
+            <span class="circle_green"></span>
+
+            <div class="intro_text">
+                Hi, I'm Ben Kempers, a software<br>developer.
             </div>
-            <div class="project_links">
-                Project link to Github and example link
+
+            <div class="info_text">
+                Currently a senior studying computer science<br>at the University of Utah.
             </div>
-        </div>
-    
-        <h3>
-            <a href="https://github.com/bkempers/TankWars" target="_blank">TankWars Github</a>
-        </h3>
-        <div class="project">
-            <img src="../Pictures/tankwars_gif.gif" alt="TankWars Gif">
-            <div class="project_info">
-                TankWars Gif
-            </div>
-            <div class="project_links">
-                Project link to Github and example link
-            </div>
+
+            <span class="circle_yellow"></span>
+
         </div>
 
-        <h3>
-            <a href="https://github.com/bkempers/RSA_Encryption" target="_blank">RSA Encryption Github</a>
-        </h3>
-        <div class="project">
-            <div class="project_info">
-                RSA encryption  -> interactive trial that allows you input message, get keys, sends back encoded message, then you can
-                manually decode the message to get back the  original message.
-            </div>
-            <div class="project_links">
-                Project link to Github and example link
-            </div>
-        </div>
-    </div>
+        <main>
+            <section id="projects">
+                <div class="project">
+                    <img src="../Pictures/morsecode_gif.gif" alt="MorseCodeTeacher Gif">
 
-    <section id="contact">
-    <article>
-        <section>
-            Links here (Github, LinkedIn/Handshake, )
-        </section>
-        <section>
-            Text box to send message to my email
-        </section>
-    </article>
-</main>
-<footer>
-    
-</footer>
+                    <div class="github_link">
+                        <a href="https://github.com/bkempers/Morse-Code-Teacher" target="_blank">Morse Code Teacher Github</a>
+                    </div>
+
+                    <div class="project_info">
+                        C++ morse code teaching program developed as a final project 
+                        <br> for the CS3505 class at the University of Utah.
+                        <br> • Info about the project
+                        <br> • What I specifically worked on
+                        <br> • What I learned through the project
+                        <br> • What I could improve about the project
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="../Pictures/tankwars_gif.gif" alt="TankWars Gif">
+
+                    <div class="github_link">
+                        <a href="https://github.com/bkempers/TankWars" target="_blank">TankWars Github</a>
+                    </div>
+
+                    <div class="project_info">
+                        A C# 2D player driven tank that is able to shoot, 
+                        <br> • Info about the project
+                        <br> • What I specifically worked on
+                        <br> • What I learned through the project
+                        <br> • What I could improve about the project
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="github_link">
+                        <a href="https://github.com/bkempers/RSA_Encryption" target="_blank">RSA Encryption Github</a>
+                    </div>
+
+                    <div class="project_info">
+                        RSA encryption -> interactive trial that allows you input message, get keys, sends back encoded
+                        message, then you can
+                        manually decode the message to get back the original message.
+                    </div>
+                </div>
+
+                <section id="contact">
+                    <div class="about_me_section">
+                        <article>
+                            <section>
+                                Links here (Github, LinkedIn/Handshake, )
+                            </section>
+                            <section>
+                                Text box to send message to my email
+
+                                Website designed and developed by Ben Kempers - utilizing Figma, HTML, CSS, and Javascript.
+                                Code can be found with this <a href="https://github.com/bkempers/LandingPage" target="_blank">Github
+                                    Link</a>.
+                            </section>
+                        </article>
+                    </div>
+
+        </main>
 </body>
+
 </html>
