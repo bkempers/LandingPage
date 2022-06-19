@@ -138,8 +138,16 @@ img{
 */
 
 .about_me_section{
-    height: 100vh;
+    height: 50vh;
     margin: 1fr;
+}
+
+footer{
+    border-top: 1px inset black;
+}
+
+.footer_info{
+    margin: 3rem;
 }
 
 section{
